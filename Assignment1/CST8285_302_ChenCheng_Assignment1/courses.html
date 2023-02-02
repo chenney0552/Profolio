@@ -1,0 +1,171 @@
+<!--
+Name: Chen Cheng
+Date: 2022-10-25
+Section: CST8285-302
+The resume.html displays the structure of the courses page of personal portfolio web development.
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta name="author" content="Chen Cheng" >
+    <meta
+      name="keywords"
+      content="html, personal portfolio, courses, web development"
+    >
+    <meta name="description" content="Courses Page For Personal Portfolio." >
+    <title id="title">Courses</title>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+  </head>
+
+  <body class="courses">
+    <header>
+      <h1>ESSENTIAL COURSES</h1>
+      <nav class="nav">
+        <a href="index.html" target="_blank">Index</a>
+        <a href="resume.html" target="_blank">Resume</a>
+        <a href="courses.html" target="_blank">Courses</a>
+      </nav>
+    </header>
+
+    <p>
+      <label for="searchbox"> You can search the courses here: </label>
+      <input id="searchbox" class="search" type="text" placeholder="Search.." />
+    </p>
+    <p class="sort">
+      <label for="sort_option"> Sort by: </label>
+      <select name="sort_options" title="select_list" id="sort_option">
+        <option value="by default">by default</option>
+        <option value="lowest to highest level">lowest to highest level</option>
+        <option value="highest to lowest level">lowest to highest level</option>
+      </select>
+    </p>
+
+    <p class="myBtnContainer">
+      <button type="button" class="btn active">Show all</button>
+      <button type="button" class="btn">Level 1</button>
+      <button type="button" class="btn">Level 2</button>
+    </p>
+
+    <div class="container">
+      <ul>
+        <li class="filterDiv Level1">
+          <img src="Images/math.jpg" alt="picture of math" />
+          <h4>
+            LEVEL1_MAT8001C_030 - Technical Mathematics for Computer Science
+          </h4>
+          <span class="CSI">
+            The study of algebraic and transcendental functions is an essential
+            prerequisite to Calculus.
+          </span>
+        </li>
+        <li class="filterDiv Level1">
+          <img src="Images/success.jpg" alt="picture of success" />
+          <h4
+            >LEVEL1_CST8300 - Achieving Success in Changing Environments</h4
+          >
+          <span class="CSI">
+            Students apply critical thinking and decision-making tools to help
+            resolve some of the important issues in our complex society with its
+            competing interests.
+          </span>
+        </li>
+        <li class="filterDiv Level1">
+          <img src="Images/database.jpg" alt="picture of database" />
+          <h4>LEVEL1_CST8215 - Introduction to Database</h4>
+          <span class="CSI">
+            Students learn the fundamentals of Relational Databases design using
+            Entity Relation diagrams, and use SQL to create, modify and query a
+            database.
+          </span>
+        </li>
+        <li class="filterDiv Level1">
+          <img src="Images/programming.png" alt="picture of programming" />
+          <h4>LEVEL1_CST8116 - Introduction to Computer Programming</h4>
+          <span class="CSI">
+            Possessing the fundamentals of logic, problem-solving and
+            programming language structure provides a solid foundation for
+            further study in the field.
+          </span>
+        </li>
+        <li class="filterDiv Level1">
+          <img src="Images/essential.jpg" alt="picture of computer essential" />
+          <h4>LEVEL1_CST8101 - Computer Essentials</h4>
+          <span class="CSI">
+            The essentials of computer software, hardware, and laptop management
+            form the foundation for building further technical programming
+            skill.
+          </span>
+        </li>
+
+        <li class="filterDiv Level2">
+          <img
+            src="Images/techEnglish.png"
+            alt="picture of technical English"
+          />
+          <h4
+            >LEVEL2_ENL2019T - Technical Communication for Engineering
+            Technologies</h4
+          >
+          <span class="CSI">
+            The ability to communicate effectively in a technically-oriented
+            interdisciplinary workplace is a foundational skill in an
+            innovation-driven economy.
+          </span>
+        </li>
+        <li class="filterDiv Level2">
+          <img src="Images/web.jpg" alt="picture of web development" />
+          <h4>LEVEL2_CST8285 - Web Programming</h4>
+          <span class="CSI">
+            Students develop basic skills of web programming, website design and
+            implementation.
+          </span>
+        </li>
+        <li class="filterDiv Level2">
+          <img src="Images/java.jpg" alt="picture of java" />
+          <h4
+            >LEVEL2_CST8284 - Object Oriented Programming(Java)Object Oriented
+            Programming (Java)</h4
+          >
+          <span class="CSI">
+            Students explore object-oriented programming methodology using the
+            Java programming language.
+          </span>
+        </li>
+        <li class="filterDiv Level2">
+          <img src="Images/linux.jpg" alt="picture of linux" />
+          <h4
+            >LEVEL2_CST8102 - Operating System Fundamentals (GNU/Linux)</h4
+          >
+          <span class="CSI">
+            Students explore the basic concepts and components of Operating
+            Systems (OS), and how they function and interact with hardware and
+            software components.
+          </span>
+        </li>
+        <li class="filterDiv Level2">
+          <img src="Images/sql.jpg" alt="picture of sql" />
+          <h4>LEVEL2_CST2355 - Database Systems</h4>
+          <span class="CSI"> 
+            Students acquire practical experience using market-leading
+            object-relational database management systems like Oracle and MySQL.
+          </span>
+        </li>
+        <li class="filterDiv Level2">
+          <img src="Images/coop.png" alt="picture of coop" />
+          <h4>LEVEL2_GEP1001 - Cooperative Education Readiness</h4>
+          <span class="CSI">
+            Through a detailed orientation students learn the cooperative
+            education program policies and procedures related to searching and
+            securing a work term opportunity.
+          </span>
+        </li>
+      </ul>
+    </div>
+
+    <footer>
+      <p><span id="footer">Formatting and code by Chen Cheng.</span></p>
+    </footer>
+  </body>
+</html>
